@@ -1,0 +1,21 @@
+/target/
+/build/
+/bin/
+/out/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.settings/
+.project
+.classpath
+
+.DS_Store
+
+*.log
+logs/
+
+*.jar
+!target/EasyBackUp-*.jar # 保留最终构建的插件
