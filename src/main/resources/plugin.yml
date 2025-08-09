@@ -1,0 +1,14 @@
+name: EasyBackUp
+version: 1.0
+main: io.github.wzqLovesPizza.easybackup.EasyBackUp
+api-version: 1.20
+commands:
+  ebu:
+    description: EasyBackUp 主命令
+    usage:
+      /ebu backup
+    permission: ebu.backup
+permissions:
+  ebu.backup:
+    description: 允许使用备份功能
+    default: op
